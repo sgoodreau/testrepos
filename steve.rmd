@@ -1,0 +1,25 @@
+---
+title: Hierarchical occupancy models for species interactions - Simulations
+author: "Ben Weinstein - Stony Brook University"
+output:
+  html_document:
+    toc: true
+    number_sections: true
+    theme: spacelab
+    keep_md: true
+  word_document: default
+---
+
+```{r,warning=FALSE,message=FALSE,echo=FALSE,cache=FALSE}
+```
+
+#Simulation   
+
+$$\alpha=N(3,0.2)$$
+
+**View simulated strength and form of trait matching **
+
+```{r}
+a <- 3
+a
+```
