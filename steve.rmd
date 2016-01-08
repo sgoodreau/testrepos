@@ -1,6 +1,6 @@
 ---
-title: Hierarchical occupancy models for species interactions - Simulations
-author: "Ben Weinstein - Stony Brook University"
+title: Steve makes a markdqwn file that looks awesome right on github
+author: "Steven M. Goodreau - University of Washington"
 output:
   html_document:
     toc: true
@@ -13,13 +13,19 @@ output:
 ```{r,warning=FALSE,message=FALSE,echo=FALSE,cache=FALSE}
 ```
 
-#Simulation   
+# Guiding formula:
 
-$$\alpha=N(3,0.2)$$
+$$R_0 = \beta cD$$
 
-**View simulated strength and form of trait matching **
-
+### Set parameters
 ```{r}
-a <- 3
-a
+beta <- 0.1
+c <- 0.7
+D <- 25
+```
+
+### Calculate $R_0$
+```{r}
+r0 <- beta*c*D
+r0
 ```
