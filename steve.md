@@ -1,4 +1,4 @@
-# Steve makes a markdqwn file that looks awesome right on github
+# Steve makes a markdown file that looks awesome right on github
 Steven M. Goodreau - University of Washington  
 
 

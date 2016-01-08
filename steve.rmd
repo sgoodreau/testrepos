@@ -1,5 +1,5 @@
 ---
-title: Steve makes a markdqwn file that looks awesome right on github
+title: Steve makes a markdown file that looks awesome right on github
 author: "Steven M. Goodreau - University of Washington"
 output:
   html_document:
